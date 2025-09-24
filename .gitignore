@@ -1,0 +1,10 @@
+node_modules
+coverage
+cache
+artifacts
+typechain-types
+dist
+.env
+solana/target
+solana/.anchor
+**/Cargo.lock
