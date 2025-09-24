@@ -20,6 +20,8 @@
     "typescript": "^5.4.2"
   },
   "dependencies": {
+    "@pythnetwork/client": "^2.20.2",
+    "@solana/web3.js": "^1.90.0",
     "dotenv": "^16.4.5"
   }
 }

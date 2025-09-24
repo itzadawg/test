@@ -5,3 +5,6 @@ artifacts
 typechain-types
 dist
 .env
+solana/target
+solana/.anchor
+**/Cargo.lock
