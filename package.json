@@ -1,0 +1,25 @@
+{
+  "name": "perp-dex-starter",
+  "version": "0.1.0",
+  "description": "Starter kit for deploying a lightweight perpetual DEX with Hardhat and TypeScript tooling.",
+  "private": true,
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "coverage": "hardhat coverage",
+    "lint:sol": "solhint 'contracts/**/*.sol'",
+    "lint": "npm run lint:sol",
+    "prepare": "hardhat compile"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@types/node": "^20.11.30",
+    "hardhat": "^2.20.1",
+    "solhint": "^3.6.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
